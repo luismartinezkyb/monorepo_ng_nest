@@ -1,0 +1,18 @@
+<h1>Hola Mundo</h1>
+
+<button (click)="getPosts()">Get all posts</button>
+
+<!-- 
+<ul>
+  <li>Post 1</li>
+  <li>Post 2</li>
+  <li>Post 3</li>
+  <li>Post 4</li>
+</ul> -->
+<ul>
+  <li *ngFor="let task of tasks">{{task}}</li>
+  
+</ul>
+
+
+<!-- {{tasks}} -->
